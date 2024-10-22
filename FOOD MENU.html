@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FENTECH FOOD MENU</title>
+    <link rel="stylesheet" href="FOODMENU STYLE.css">
+</head>
+
+<body>
+    <header>
+        <h1> FENTECH RESTAURANT </h1>
+        <nav id="navbar">
+            <ul>
+                <li><a href="#appetizers">Appetizers</a></li>
+                <li><a href="#desserts">Dessert</a></li>
+                <li><a href="#drink">Drink</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h2 id="appetizers" class="menu-cart-tittle">Appetizers</h2>
+    <section >
+        <div class="menu-item">
+            <img src="C:\Users\DPI\Desktop\food menu\Screenshot_20240830-003318_1.png" alt="spring rolls">
+            <div class="menu-item-details">
+                <h3>Spring Rolls</h3>
+                <p> A delicious mix of vegetables wrapped in crispy pastry served with sweet chili sauce.</p>
+                <span class="price">$2.50</span>
+            </div>
+        </div>
+
+        <div class="menu-item">
+            <img src="C:\Users\DPI\Desktop\food menu\Screenshot_20240809-225029_1.png" alt="Barbecue">
+            <div class="menu-item-details">
+                <h3>Barbecue</h3>
+                <p> A delicious mix of Plantain,roasted fish and hot pepper sauce.</p>
+                <span class="price">$3.50</span>
+            </div>
+        </div>
+
+        <div class="menu-item">
+            <img src="C:\Users\DPI\Desktop\food menu\Screenshot_20240809-225103_1.png" alt="Grilled chicken">
+            <div class="menu-item-details">
+                <h3>Grilled Chicken</h3>
+                <p> Delicious grilled chicken served with vegetables and potatoes.</p>
+                <span class="price">$4.50</span>
+            </div>
+        </div>
+
+        <div class="menu-item">
+            <img src="C:\Users\DPI\Desktop\food menu\Screenshot_20240809-225133_1.png" alt="Pasta">
+            <div class="menu-item-details">
+                <h3>Pasta</h3>
+                <p> Pasta served with a touch of spicy tomatoe sauce.</p>
+                <span class="price">$3.90</span>
+            </div>
+        </div>
+    </section>
+
+    <h2 id="desserts"  class="menu-cart-tittle"> Desserts</h2>
+    <section>
+        <div class="menu-item">
+            <img src="C:\Users\DPI\Desktop\food menu\Screenshot_20240809-232016_1.png" alt="cake">
+            <div class="menu-item-details">
+                <h3>Vanilla Cake</h3>
+                <p> Vanilla cake served with cold orange juice.</p>
+                <span class="price">$2.75</span>
+            </div>
+        </div>
+
+        <div class="menu-item">
+            <img src="C:\Users\DPI\Desktop\food menu\Screenshot_20240809-232759_1.png" alt="fruit salad">
+            <div class="menu-item-details">
+                <h3>Fruit salad</h3>
+                <p> Fruit Salad served with a cup of condesed milk.</p>
+                <span class="price">$3.87</span>
+            </div>
+        </div>
+    </section>
+
+    <h2 id="drink" class="menu-cart-tittle"> Drink</h2>
+    <section>
+        <div class="menu-item">
+            <img src="C:\Users\DPI\Desktop\food menu\Screenshot_20240809-232841_1.png" alt="Cup of Tea">
+            <div class="menu-item-details">
+                <h3>Tea</h3>
+                <p> Cup of Tea with choice of milk.</p>
+                <span class="price">$2.59</span>
+            </div>
+        </div>
+
+        <div class="menu-item">
+            <img src="C:\Users\DPI\Desktop\food menu\Screenshot_20240809-232937_1.png" alt="soft drink">
+            <div class="menu-item-details">
+                <h3>Soft drink</h3>
+                <p> Choice of soft drink.</p>
+                <span class="price">$2.30</span>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Fentech Resturant. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // When the user scrolls the page, execute myFunction
+        window.onscroll = function () { myFunction() };
+
+        // Get the navbar
+        var navbar = document.getElementById("navbar");
+
+        // Get the offset position of the navbar
+        var sticky = navbar.offsetTop;
+
+        // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+        function myFunction() {
+            if (window.scrollY >= sticky) {
+                navbar.classList.add("sticky")
+            } else {
+                navbar.classList.remove("sticky");
+            }
+        }
+    </script>
+</body>
+
+</html>

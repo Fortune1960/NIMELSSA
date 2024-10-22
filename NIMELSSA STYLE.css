@@ -4,7 +4,7 @@
     font-family: century;
 }
 header {
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../Desktop/library\ image\ 2.jpeg);
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(image/library.jpg);
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -112,5 +112,13 @@ ul li.active a{
     transition: 0.4 ease;
     text-align: left;
     border-radius: 0px;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    color: black;
+    font-weight: bold;
+    width: 100%;
+    bottom: 0;
 }
 
