@@ -1,51 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width", initial-scale="1.0">
-        <title> MEDICAL LABORATORY E-LIBRARY</title>
-        <link rel="stylesheet" href="NIMELSSA STYLE.css">
-    </head>
-    <body>
-        <header>
-            <div class="main">
-                <div class="logo">
-                    <img src="image\m-removebg-preview (1).png">
-                </div>
-                <ul>
-                    <li class="active"><a href="NIMELSSA Login.html">LOGIN</a></li>
-                    <li><a href="NIMELSSA about.html">ABOUT</a></li>
-                    <li><a href="NIMELSSA 100level.html">100 LVL</a></li>
-                    
-                    <li><a href="NIMELSSA 200level.html">200 LVL</a></li>
-                    <li><a href="NIMELSSA 300level.html">300 LVL</a></li>
-                    <li><a href="medlab 400level.html">400 LVL</a></li>
-                    <li><a href="medlab 500level.html">500 LVL</a>
-                    <li><a href="#">NOVELS</a>
-                    <div class="sub-menu">
-                        <ul>
-                            <li><a href="#">Gifted hands</a></li>
-                            <li><a href="novels\The Big Picture- Ben Carson.pdf" target="_blank">The Big Picture</a></li>
-                            <li><a href="#">Take the risk</a></li>
-                        </ul>
-                    </div>
-                </li>
-                </ul>
-            </div>
-            <div class="title">
-                <h1> WELCOME!!</h1>
-                <h2> TO THE MED LAB E-LIBRARY</h2>
-                <p> AN INITIATIVE BY THE <B>EMMANUEL ANYAMELE LED ADMIN</B></p>
-            </div>
-            <div class="button">
-                <a href="#" class="btn">TEXTBOOKS</a>
-                <a href="#" class="btn">WATCH VIDEOS</a>
-            </div>
-        </header>
-        <section>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" , initial-scale="1.0">
+    <title> MEDICAL LABORATORY E-LIBRARY</title>
+    <link rel="stylesheet" href="NIMELSSA STYLE.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <img class="img" src="image/m-removebg-preview (1).png">
+        <i class="fa-solid fa-bars-staggered barIcon"></i>
+
+        <div class="active">
+            <p style="padding: 10px; background-color: black; border-radius: 25px;"><a
+                    href="NIMELSSA Login.html">LOGIN</a></p>
+            <p><a href="NIMELSSA about.html">ABOUT</a></p>
+            <p><a href="NIMELSSA 100level.html">100 LVL</a></p>
+            <p><a href="NIMELSSA 200level.html">200 LVL</a></p>
+            <p><a href="NIMELSSA 300level.html">300 LVL</a></p>
+            <p><a href="medlab 400level.html">400 LVL</a></p>
+            <p><a href="medlab 500level.html">500 LVL</a>
+            <p><a href="#">NOVELS</a>
+                <!-- <div class="sub-menu">
+                    <ul>
+                        <li><a href="#">Gifted hands</a></li>
+                        <li><a href="novels\The Big Picture- Ben Carson.pdf" target="_blank">The Big Picture</a></li>
+                        <li><a href="#">Take the risk</a></li>
+                    </ul>
+                </div> -->
+            </p>
+        </div>
+    </header>
+    <div class="menu">
+    <p><a href="NIMELSSA Login.html">LOGIN</a></p>
+    <p><a href="NIMELSSA about.html">ABOUT</a></p>
+    <p><a href="NIMELSSA 100level.html">100 LVL</a></p>
+    <p><a href="NIMELSSA 200level.html">200 LVL</a></p>
+    <p><a href="NIMELSSA 300level.html">300 LVL</a></p>
+    <p><a href="medlab 400level.html">400 LVL</a></p>
+    <p><a href="medlab 500level.html">500 LVL</a>
+    <p><a href="#">NOVELS</a>
+    </div>
+
+    <div class="main">
+
+
+        <div class="title">
+            <h1> WELCOME!!</h1>
+            <h2> TO THE MED LAB E-LIBRARY</h2>
+            <p class="emma"> AN INITIATIVE BY THE <span class="followuP">EMMANUEL ANYAMELE LED ADMIN</span></p>
+        </div>
+        <div class="button">
+            <button>TEXTBOOKS</button>
+            <button>WATCH VIDEOS</button>
+        </div>
+    </div>
+    <div class="center">
         <footer>
             <p>&copy; <B>Compiled By FENTECH</B> </p>
         </footer>
-        </section>
-    </body>
+
+
+    </div>
+     <script>
+        const bar = document.querySelector('.barIcon')
+        const menu = document.querySelector('.menu')
+        let monitor = true
+        bar.addEventListener('click',() => {
+            if(monitor){
+                menu.style.display = 'flex'
+            }else{
+               menu.style.display = 'none'
+            }
+            monitor = !monitor
+        })
+
+        
+     </script>
+
+</body>
+
 </html>
