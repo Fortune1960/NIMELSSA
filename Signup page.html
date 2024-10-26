@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<title>Sign Up Page</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width" , initial-scale="1.0">
+	<title>Login Page</title>
 	<link rel="stylesheet" href="Signup page.css">
 </head>
+
 <body>
 	<div class="container">
 		<div class="login-form">
-			<h2>Sign Up</h2>
-			<form action="NIMELSSA E-LIBRARY.html">
+			<h2>Signup</h2>
+			
 			<label for="Full Name">Your Full Name</label>
 			<input type="Full Name" id="Full Name" placeholder="Full Name">
 			<label for="Level">Input Your Level</label>
@@ -17,26 +21,33 @@
 			<input type="email" id="email" placeholder="Email">
 			<label for="Password">Input Your Password</label>
 			<input type="Password" id="Password" placeholder="Password">
-			<div class="button">
-                <a href="NIMELSSA Login.html" class="btn">Sign Up</a>
-			</div>
-		</form>
+
+			<button class="button">Signup</button>
+
+				<script>
+
+					const button = document.querySelector('.button')
+					button.addEventListener('click',() => {
+						window.location.href = 'NIMELSSA Login.html'
+					})
+					
+				</script>
+
+
+				<div class="signup">
+					<p>Already have an account? <a href="NIMELSSA Login.html">Login Now</a></p>				
+				</div>
+		
 		</div>
 		<div class="image-section">
 			<div class="content">
-				<h3>Your Life is a Message to the World.<h4>Make it Inspiring!</h4></h3>
+				<h3>Your Life is a Message to the World.<h4>Make it Inspiring!</h4>
+				</h3>
 				<p>President Emmawell, 2024</p>
 			</div>
 		</div>
 	</div>
-	<section>
-		<footer>
-            <p>&copy; 2024 Fentech. All rights reserved.</p>
-        </footer>
-    
-	<footer>
-		<p>&copy; <B>Compiled By FENTECH</B> </p>
-	</footer>
-</section>
+
 </body>
+
 </html>
