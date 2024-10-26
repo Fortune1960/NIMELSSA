@@ -52,25 +52,53 @@
     max-width: 550px;
 }
 .button{
-    width: 10%;
+    width: 150px;
     padding: 12px;
-    position: center;
-    text-align: center;
-    text-decoration: none;
+    margin-left: 20px;
+    margin-bottom: 20px;
     background-color:  rgb(185, 63, 63);
     border: none;
     border-radius: 2px;
     cursor: pointer;
     font-size: 15px;
+    color: white;
+    border-radius: 25px;
+}
+.button:hover{
+    background-color: rgb(141, 11, 11); ;
 }
 footer {
     text-align: center;
     padding: 10px;
-    color: black;
+    background-color: black;
+    padding: 15px 0 15px 0;
+    color: white;
     font-weight: bold;
     width: 100%;
     bottom: 0;
+    font-size: 1rem;
+    margin-top: 40px;
 }
 
 
+@media screen and (max-width:650px){
+    .container{
+        display: flex;
+        padding: 20px;
+        flex-direction: column;
+        margin: auto;
+        border-radius: 12px;
+    }
+    .image-section h2{
+        font-size: 1.9rem;
+        margin-bottom: 25px;
+        line-height: 3;
 
+    }
+    .image-section p{
+
+        margin-bottom: 25px;
+    
+
+    }
+}
