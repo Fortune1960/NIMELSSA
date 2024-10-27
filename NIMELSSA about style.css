@@ -109,7 +109,7 @@ footer {
 }
 
 
-@media screen and (min-width:650px) and (max-width:1050px) {
+@media screen and (min-width:650px) and (max-width:850px) {
     .container{
         display: flex;
         padding: 20px;
