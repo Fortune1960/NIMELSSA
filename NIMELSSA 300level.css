@@ -113,6 +113,12 @@ a{
 }
 
 @media screen and (max-width:650px){
+    .sec{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
     .menu-item img{
         height: 90px;
         width: 90px;
