@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width", initial-scale="1.0">
+        <title> MLS 500 LEVEL LIBRARY</title>
+        <link rel="stylesheet" href="NIMELSSA 500Level.css">
+    </head>
+    <body>
+        <header>
+            <h1> 500 LEVEL RESOURCES </h1>
+            <nav id="navbar">
+                <div class="navDiv" style="display: flex; justify-content: space-evenly; align-items: center;">
+                     <p><a href="#First Semester">FIRST SEMESTER</a></p>
+                </div>
+            </nav>
+        </header>
+    
+        <h2 id="First Semester" class="menu-cart-tittle">FIRST SEMESTER</h2>
+        <section >
+            <div class="menu-item">
+                <img src="image/microbiology.jpeg" alt="microbiology">
+                <div class="menu-item-details">
+                    <h3>MICROBIOLOGY</h3>
+                    <p> <a href="500 level/Image to PDF 20241026 16.56.58.pdf" download="500 level/Image to PDF 20241026 16.56.58.pdf">Learn More</a></p>
+                    <span class="price">$0.00</span>
+                </div>
+            </div>
+        </section>
+
+            <a href="index.html">
+                <button class="btn" style="margin-top: 20px; border: none; padding: 15px 10px; width: 120px; font-size: 1.1rem; border-radius: 25px;">Back</button>
+             </a>
+            </section>
+
+        <style>
+            .btn:hover{
+              background-color: rgb(163, 151, 151);
+            }
+        </style>
+
+    
+        <script>
+            // When the user scrolls the page, execute myFunction
+            window.onscroll = function () { myFunction() };
+    
+            // Get the navbar
+            var navbar = document.getElementById("navbar");
+    
+            // Get the offset position of the navbar
+            var sticky = navbar.offsetTop;
+    
+            // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+            function myFunction() {
+                if (window.scrollY >= sticky) {
+                    navbar.classList.add("sticky")
+                } else {
+                    navbar.classList.remove("sticky");
+                }
+            }
+        </script>
+        <footer>
+            <p>&copy; 2024 Fentech. All rights reserved.</p>
+            <p>&copy; Compiled by FENTECH</p>
+        </footer>

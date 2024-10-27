@@ -10,45 +10,48 @@
         <header>
             <h1> 400 LEVEL RESOURCES </h1>
             <nav id="navbar">
-                <ul>
-                    <li><a href="#First Semester">FIRST SEMESTER</a></li>
-                    <li><a href="#Notes">NOTES</a></li>
-                </ul>
+                <div class="navDiv" style="display: flex; justify-content: space-evenly; align-items: center;">
+                     <p><a href="#First Semester">FIRST SEMESTER</a></p>
+                    <p><a href="#Notes">NOTES</a></p>
+                </div>
             </nav>
         </header>
     
-        <h2 id="First Semester" class="menu-cart-tittle">FIRST SEMESTER</h2>
+        <h2 id="First Semester" class="menu-cart-tittle">NOTES</h2>
         <section >
             <div class="menu-item">
-                <img src="image/all subjects 400.jpeg" alt="all subjects">
-                <div class="menu-item-details">
-                    <h3>ALL SUBJECTS</h3>
-                    <p> <a href="400 level/Past Questions-1.pdf" target="_blank">Learn More</a></p>
-                    <span class="price">$0.00</span>
-                </div>
-            </div>
-        </section>
-    
-        <h2 id="Notes"  class="menu-cart-tittle"> NOTES</h2>
-        <section>
-            <div class="menu-item">
-                <img src="image/spot test.png" alt="FIRST PROFESSIONAL SPOT TEST">
+                <img src="image/spot test.png" alt="PROFESSIONAL SPOT TEST">
                 <div class="menu-item-details">
                     <h3>FIRST PROFESSIONAL SPOT TEST</h3>
-                    <p> <a href="400 level/FIRST PROFESSIONAL SPOT TEST.pdf" target="_blank">Learn More</a></p>
+                    <p> <a href="400 level/FIRST PROFESSIONAL SPOT TEST.pdf" download="400 level/FIRST PROFESSIONAL SPOT TEST.pdf">Learn More</a></p>
                     <span class="price">$0.00</span>
                 </div>
             </div>
-            </section>
-           
-            <div class="button">
-                <a href="index.html" class="btn">BACK</a>
-            </div>
         </section>
-    
-        <footer>
-            <p>&copy; 2024 Fentech. All rights reserved.</p>
-        </footer>
+
+        <h2 id="First Semester" class="menu-cart-tittle">FIRST SEMESTER</h2>
+        <section >   
+        <div class="menu-item">
+                <img src="image/all subjects 400.jpeg" alt="Past Questions">
+                <div class="menu-item-details">
+                    <h3>PAST QUESTIONS</h3>
+                    <p> <a href="400 level/Past Questions-1.pdf" download="400 level/Past Questions-1.pdf">Learn More</a></p>
+                    <span class="price">$0.00</span>
+                </div>
+            </div>
+        </section>  
+           
+            <a href="index.html">
+                <button class="btn" style="margin-top: 20px; border: none; padding: 15px 10px; width: 120px; font-size: 1.1rem; border-radius: 25px;">Back</button>
+             </a>
+            </section>
+
+        <style>
+            .btn:hover{
+              background-color: rgb(163, 151, 151);
+            }
+        </style>
+
     
         <script>
             // When the user scrolls the page, execute myFunction
@@ -70,5 +73,6 @@
             }
         </script>
         <footer>
+            <p>&copy; 2024 Fentech. All rights reserved.</p>
             <p>&copy; Compiled by FENTECH</p>
         </footer>

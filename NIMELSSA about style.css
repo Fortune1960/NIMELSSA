@@ -32,10 +32,10 @@
     font-size: 1.3rem;
     margin-bottom: 140px;
     line-height: 1.9;
-    max-width: 550px;
+    max-width: 500px;
 }
 .image-section img{
-    width: 500px;
+    width: 490px;
     height: 50vh;
     border-radius: 10px;
 }
@@ -101,5 +101,9 @@ footer {
         width: 100%;
         height: 250px;
         border-radius: 10px;
+    }
+    .text-section h1{
+        margin-bottom: 5px;
+        font-size: 2.4rem;
     }
 }
