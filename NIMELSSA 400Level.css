@@ -80,7 +80,9 @@ section h2{
 }
 
 .menu-item-details{
-    padding-left: 20px;
+    padding-left: 50px;
+    text-align: center;
+    margin-top: 10%;
 }
 
 .menu-cart-tittle {
