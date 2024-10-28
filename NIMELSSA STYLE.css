@@ -126,7 +126,7 @@ footer{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        row-gap: 15px;
+        row-gap: 30px;
         background-color: white;
         position: absolute;
         right: 2px;
@@ -172,5 +172,8 @@ footer{
  }
  .bar-icon{
     display: block;
+}
+.title{
+    margin-top: 11%;
 }
 }
